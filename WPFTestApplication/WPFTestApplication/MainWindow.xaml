@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFTestApplication"
         mc:Ignorable="d"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid>
+            <m:Map x:Name="myMap" CredentialsProvider="PR8OExAiC8SL8EhpwHOj~9Rgsse1U7PtZqoWNzG4__A~AvJe-Twuy7cuzb2uPK8eb7tco9FJYg8Sp5Vm4v7qmpfNLRCD_e6Tro7w0fxf_4IG" Mode="Aerial"/>
+        </Grid>
     </Grid>
 </Window>
